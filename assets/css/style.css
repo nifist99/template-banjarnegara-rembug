@@ -1,0 +1,196 @@
+.navbar{
+	background-color: white;
+	padding: 10px;
+	color: black;
+}
+
+.mt-50{
+	margin-top: 50px;
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.black{
+	color: black;
+}
+
+section{
+	margin-top: 50px;
+}
+
+.card-login{
+	box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	-webkit-box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	-moz-box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	background-color: white;
+	width: 70%;
+	min-height: 400px;
+	border-radius: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-register{
+	box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	-webkit-box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	-moz-box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	background-color: white;
+	width: 40%;
+	min-height: 400px;
+	border-radius: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.img-home{
+	width: 300px;
+}
+
+.img-head{
+	width: 50px;
+}
+
+.img-section3{
+	width: 150px;
+}
+
+.search-navbar{
+	position: absolute;
+    margin-left: 60px;
+
+}
+
+
+.input-wrapper {
+    background: #eee;
+    padding: 10px;
+    color: #909090;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-control{
+	background-color: #eee;
+	border-color: #eee;
+}
+
+.input-wrapper .label{
+	display: block;
+	text-align: left;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 8px 10px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    color: #eee;
+    background: #7b99b9;
+    text-decoration: none!important;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Quicksand,sans-serif;
+}
+
+.subtitle{
+	color: #909090;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.font-navbar{
+	color: #909090;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Quicksand,sans-serif;
+}
+
+#footer{
+	margin-top: 50px;
+	height: auto;
+}
+
+.footer{
+	padding: 20px;
+	background-color: #eee;
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+li{
+	list-style-type: none;
+}
+
+.img-footer{
+	width: 30px;
+	height: 30px;
+}
+
+.font-footer{
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Quicksand,sans-serif;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: black;
+
+}
+
+.font-footer-head{
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Quicksand,sans-serif;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #7a7676;
+
+}
+
+.font-section{
+	font-size: 14px;
+	font-weight: 600;
+	font-family: Quicksand,sans-serif;
+	text-decoration: none;
+	color: #7a7676;
+
+}
+
+@media (max-width: 748px){
+	.card-login{
+		width: 100%;
+		min-height: 500px;
+	}
+	.img-home{
+		width: 100%;
+	}
+	.img-section3{
+		width: 100%;
+	}
+	.navbar-toggler-icon{
+	 color: black;
+	}
+	.card-register{
+		width: 100%;
+		min-height: 100vh;
+	}
+}
