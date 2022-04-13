@@ -12,12 +12,30 @@
 	margin-top: 10px;
 }
 
+.mt-20{
+	margin-top: 20px;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
 .black{
 	color: black;
 }
 
+#section-password{
+	min-height: 100vh;
+}
+
 section{
 	margin-top: 50px;
+}
+
+.dashboard-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
 
 .card-login{
@@ -46,6 +64,37 @@ section{
 	padding-bottom: 30px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.card-password{
+	box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	-webkit-box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	-moz-box-shadow: -1px 5px 10px 0px rgba(150,146,146,0.42);
+	background-color: white;
+	width: 40%;
+	height: auto;
+	border-radius: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.banner {
+    z-index: 99999;
+    position: fixed;
+    text-align: center;
+    background: #314c69;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.banner span{
+	color: white;
+	text-transform: capitalize;
 }
 
 .img-home{
@@ -115,6 +164,15 @@ section{
     margin-bottom: 20px;
 }
 
+.title-dashboard{
+	color: #909090;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
 .font-navbar{
 	color: #909090;
     font-weight: 700;
@@ -175,10 +233,16 @@ li{
 
 }
 
+.button .is-plain {
+    border: 1px solid #2d2d2d;
+    color: #2d2d2d;
+    font-weight: lighter;
+}
+
 @media (max-width: 748px){
 	.card-login{
 		width: 100%;
-		min-height: 500px;
+		height: auto;
 	}
 	.img-home{
 		width: 100%;
@@ -191,6 +255,12 @@ li{
 	}
 	.card-register{
 		width: 100%;
-		min-height: 100vh;
+		height: auto;
+	}
+	.card-password{
+		width: 100%;
+	}
+	.title-dashboard{
+    	font-size: 18px!important;
 	}
 }

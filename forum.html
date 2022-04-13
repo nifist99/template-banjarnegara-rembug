@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forum Rembug Banjarnegara</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/forum.css">
+    <link rel="stylesheet" type="text/css" href="assets/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/trix/trix.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit:wght@200&family=Nunito+Sans&family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
+
+      <style>
+    trix-toolbar .trix-button {
+        display: none;
+        border: 1px solid grey;
+      }
+      trix-toolbar .trix-button--icon-link, 
+      trix-toolbar .trix-button--icon-code, 
+      trix-toolbar .trix-button--icon-attach{
+          display: block;
+      }
+      trix-toolbar .trix-button-group:not(:first-child) {
+        margin-left: 0px;
+      }
+      trix-toolbar .trix-button-group {
+        border: 0px;
+      }
+      trix-toolbar .trix-button--dialog {
+        display: block;
+      }
+
+      trix-editor {
+    border: 1px solid #eee;
+  }
+  </style>
+
+  </head>
+  <body>
+
+    <div class="banner">
+
+      <span> 👋🏽 Halo! Selamat datang di forum banjarnegara, 
+        Kamu bisa donasi untuk perkembangan website ini
+      </span>
+      <a href="">Donasi Disini</a>
+
+      <!-- https://saweria.co/ -->
+      
+    </div>
+
+<section id="first-forum">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <nav class="navbar navbar-light">
+          <div class="container-fluid justify-content-between">
+           <div class="d-flex align-items-center"> 
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/head.jpg" class="img-head">
+            </a>
+            <a href="forum.html" class="navbar-brand font-navbar">Forum</a>
+            <a href="dashboard.html" class="navbar-brand font-navbar">Dashboard</a>
+            <a href=""><i class="fa fa-bell"></i></a>
+          </div>
+            <form class="d-flex input-group w-auto">
+              <input
+                type="search"
+                class="form-control rounded"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <span class="input-group-text border-0" id="search-addon">
+              <i class="fa fa-search"></i>
+              </span>
+            </form>
+          </div>
+        </nav>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="second-forum">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="title">Forum Rembug Banjarnegara</h1>
+        <h2 class="subtitle">Pertanyaan, artikel, acara, loker dan karya seputar Banjarnegara</h2>
+      </div>
+    </div>
+
+    <hr>
+
+  </div>
+
+</section>
+
+<div class="navigasi">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12 mt-10">
+        <center>
+        <div class="card-nav">
+          <p class="text-center">Buat Diskusi / Karya</p>
+          <a href="" class="list-title">Diskusi</a>
+          <a href="" class="list-title">Artikel</a>
+          <a href="" class="list-title">Mading</a>
+          <a href="" class="list-title">Acara</a>
+          <a href="" class="list-title">Loker</a>
+        </div>
+        </center>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<section id="third-forum">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <div class="card-side-left">
+          <ul class="list-side">
+             <p>Halaman Lain</p>
+            <li><a href="forum.html" class="list-title">Forum</a></li>
+            <li><a href="diskusi.html" class="list-title">Diskusi</a></li>
+            <li><a href="" class="list-title">Artikel</a></li>
+            <li><a href="" class="list-title">Mading</a></li>
+            <li><a href="" class="list-title">Acara</a></li>
+            <li><a href="" class="list-title">Loker</a></li>
+          </ul>
+          
+          
+        </div>
+         <div class="card-side-left mt-10">
+             <ul class="list-side">
+             <p>Kirim</p>
+            <li><a href="" class="list-title">Diskusi</a></li>
+            <li><a href="" class="list-title">Artikel</a></li>
+            <li><a href="" class="list-title">Karya</a></li>
+            <li><a href="" class="list-title">Buat Acara</a></li>
+            <li><a href="" class="list-title">Buat Loker</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-sm-12">
+
+      <div class="d-flex justify-content-center">
+        <form class="form-diskusi">
+              <div class="input-wrapper">
+              <input id="x" type="hidden" name="content">
+              <trix-editor input="x"></trix-editor>
+            </div>
+              <div class="mt-20">
+                <button type="submit" class="btn btn-sm btn-primary">Kirim Diskusi</button>
+              </div>
+              <hr> 
+        </form>
+      </div>
+
+
+
+
+        <center>
+        <div class="card-main mt-10">
+          <div class="d-flex" style="text-align: left;">
+            <img src="assets/img/foto.png" class="img-status">
+            <span style="margin-left: 5px;">
+              <a class="list-title" href="">@nikofigit</a><br>
+              <i class="list-title">9 jam yang lalu</i>
+            </span><br>
+          </div>
+          <a href="forum_detail.html" style="text-decoration:none;">
+            <div>
+              <p class="status-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              utlabore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div style="text-align:left;">
+              <a href="forum_detail.html" class="list-title" style="text-decoration: none;">
+                <span style="font-size:12px;"><img src="assets/img/comment.png" width="12px;">&nbsp;1</span>
+              </a>
+              <span style="font-size:12px;"><img src="assets/img/love.png" width="12px;">&nbsp;1</span>
+            </div>
+          </a>
+
+         </div>
+      </center>
+
+         <center>
+        <div class="card-main mt-10">
+
+          <div class="d-flex" style="text-align: left;">
+            <img src="assets/img/foto.png" class="img-status">
+            <span style="margin-left: 5px;">
+              <a class="list-title" href="">@nikofigit</a><br>
+              <i class="list-title">9 jam yang lalu</i>
+            </span><br>
+          </div>
+
+          <a href="forum_detail.html" style="text-decoration:none;">
+
+            <div>
+              <p class="status-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+              utlabore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div style="text-align:left;">
+              <span style="font-size:12px;"><img src="assets/img/comment.png" width="12px;">&nbsp;1</span>
+              <span style="font-size:12px;"><img src="assets/img/love.png" width="12px;">&nbsp;1</span>
+            </div>
+
+          </a>
+          
+        </div>
+      </center>
+        
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <div class="card-side-right">
+          <p>Space Iklan (di sewakan)</p>
+          <hr>
+          
+        </div>
+
+         <div class="card-side-right mt-10">
+          <p>Keaktifan Anggota</p>
+          <hr>
+
+          <div>
+            <a href="" class="list-title">@nikofigit</a>
+            <p> <span class="circle is-blue"></span>
+                <span class="list-title">646 Kontribusi</span>
+                <br>
+                <span class="circle is-green"></span> 
+                <span class="list-title">204 Poin</span>
+            </p>
+          </div>
+          
+          <div>
+            <a href="" class="list-title">@nikofigit</a>
+            <p> <span class="circle is-blue"></span>
+                <span class="list-title">646 Kontribusi</span>
+                <br>
+                <span class="circle is-green"></span> 
+                <span class="list-title">204 Poin</span>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      
+      <div class="col-sm-12 card-show">
+        <div class="card-side-right">
+          <ul class="list-side">
+             <p>Halaman Lain</p>
+            <li><a href="forum.html" class="list-title">Forum</a></li>
+            <li><a href="diskusi.html" class="list-title">Diskusi</a></li>
+            <li><a href="" class="list-title">Artikel</a></li>
+            <li><a href="" class="list-title">Mading</a></li>
+            <li><a href="" class="list-title">Acara</a></li>
+            <li><a href="" class="list-title">Loker</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer id="footer">
+  <div class="container footer">
+    <div class="row justify-content-center">
+
+      <div class="col-sm-12 text-center">
+        <p class="font-footer-head">© Forum Rembug Banjarnegara 2015 - 2022</p>
+        <p class="font-footer-head">Video tutorial web development dan programming dalam bahasa Indonesia.
+          <br>
+          Luaskan ilmu, luaskan manfaat.</p>
+      </div>
+
+      <div class="col-6 col-md-3 d-flex justify-content-center">
+        
+        <ul>
+          <a href="" class="font-footer">Diskusi</a>
+          <li><a href="" class="font-footer">Forum</a></li>
+          <li><a href="" class="font-footer">Artikel</a></li>
+          <li><a href="" class="font-footer">Acara</a></li>
+          <li><a href="" class="font-footer">Mading</a></li>
+          <li><a href="" class="font-footer">Loker</a></li>
+        </ul>
+      </div>
+
+       <div class="col-6 col-md-3 d-flex justify-content-center">
+        <ul>
+          <a href="" class="font-footer">Informasi</a>
+          <li><a href="" class="font-footer">Faq</a></li>
+          <li><a href="" class="font-footer">Syarat</a></li>
+          <li><a href="" class="font-footer">Tentang</a></li>
+          <li><a href="" class="font-footer">Media</a></li>
+        </ul>
+      </div>
+
+       <div class="col-6 col-md-3 d-flex justify-content-center">
+        <ul>
+          <a href="" class="font-footer">Member</a>
+          <li><a href="" class="font-footer">Masuk</a></li>
+          <li><a href="" class="font-footer">Daftar</a></li>
+          <li><a href="" class="font-footer">Iklan</a></li>
+        </ul>
+      </div>
+
+       <div class="col-6 col-md-3 d-flex justify-content-center">
+        <ul>
+          <a href="" class="font-footer">Link Lainya</a>
+          <li><a href="" class="font-footer">Tanya</a></li>
+          <li><a href="" class="font-footer">Konsultasi</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 text-center">
+        <a href=""><img src="assets/img/instagram.png" class="img-footer"></a>
+        <a href=""><img src="assets/img/facebook.png" class="img-footer"></a>
+        <a href=""><img src="assets/img/youtube.png" class="img-footer"></a>
+        <a href=""><img src="assets/img/twitter.png" class="img-footer"></a>
+      </div>
+
+      <div class="text-center mt-10">
+        <p class="font-footer-head">Dibuat dengan cinta di Banjarnegara & Dieng</p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+       
+    <script type="text/javascript" src="assets/boostrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/awesome/js/all.min.js"></script>
+    <script type="text/javascript" src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/trix/trix.js"></script>
+    <script type="text/javascript">
+         </script>
+
+  </body>
+</html>

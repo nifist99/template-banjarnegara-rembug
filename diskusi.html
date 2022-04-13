@@ -7,6 +7,8 @@
     
     <link rel="stylesheet" type="text/css" href="assets/boostrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/forum.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/diskusi.css">
     <link rel="stylesheet" type="text/css" href="assets/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -18,7 +20,7 @@
   </head>
   <body>
 
-<section id="first">
+<section id="first-forum">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -30,7 +32,8 @@
               <img src="assets/img/head.jpg" class="img-head">
             </a>
             <a href="forum.html" class="navbar-brand font-navbar">Forum</a>
-            <a href="login.html" class="navbar-brand font-navbar">Login</a>
+            <a href="dashboard.html" class="navbar-brand font-navbar">Dashboard</a>
+             <a href=""><i class="fa fa-bell"></i></a>
           </div>
             <form class="d-flex input-group w-auto">
               <input
@@ -53,103 +56,104 @@
   </div>
 </section>
 
-<section id="second">
-      <div class="container">
-        <div class="row">
-        <div class="col-lg-6 col-sm-12">
-          <center>
-          <img src="assets/img/frb2.png" class="img-home">
 
-          <h1 class="title">
-            Forum Rembug Banjarnegara
-          </h1>
-
-          <p class="subtitle">
-            Forum Rembug Banjarnegara adalah sebuah website yang akan kita jadikan sebagai ajang silatumaya sekaligus sebagai media diskusi tentang Banjarnegara kekinian. 
-          </p>
-
-          </center>
-        </div>
-         <div class="col-lg-6 col-sm-12">
-          <center>
-          <div class="card-login">
-          <p class="subtitle">Daftar Sekarang</p>
-          <form>
-            <div class="form-group mt-10 input-wrapper">
-              <label class="label" for="username">Username</label>
-              <input type="text" class="form-control" id="username" placeholder>
-            </div>
-            <div class="form-group mt-10 input-wrapper">
-              <label class="label" for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder>
-            </div>
-
-             <div class="form-group mt-10 input-wrapper">
-              <label class="label" for="password">Password 
-              </label>
-              <input type="password" class="form-control" id="password" placeholder>
-            </div>
-
-            <div class="form-group mt-10 input-wrapper">
-              <label class="label" for="hp">whatsapp / hp 
-              </label>
-              <input type="number" class="form-control" id="hp" placeholder>
-            </div>
-
-            <div class="form-group mt-10 input-wrapper">
-              <label class="label" for="alamat">Alamat 
-              </label>
-              <input type="text" class="form-control" id="alamat" placeholder>
-            </div>
-
-            <div class="mt-10">
-              <button type="submit" class="button">Daftar</button>
-            </div>
-
-
-          </form>
-          <p class="font-section">Dengan mendaftar, kamu setuju
-              dengan <a href="">syarat dan ketentuan</a> kami</p>
-
-          </div>
-        </center>
+<section id="diskusi-first">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h1 class="title text-posisi-diskusi">Forum Diskusi Banjarnegara</h1>
+        <h2 class="subtitle text-posisi-diskusi">
+          Yuk bikin komunitas programming online yang nyaman. Kamu boleh bertanya, boleh juga berbagi
+        </h2>
+        <div class="text-posisi-diskusi">
+          <a class="button is-plain" href="/forum/create">Buat Diskusi</a>
+          <a class="button is-plain" href="/forum/filter/rules">Aturan</a>
         </div>
       </div>
+      <div class="col-md-6 col-sm-12 posisi-response">
+        <img src="assets/img/forum.png" class="head-img">
+      </div>
     </div>
+  </div>
 
 </section>
 
-<section id="third">
-
+<section id="diskusi-second">
   <div class="container">
-  <hr>    
-  <div class="row">
-    <div class="col-md-4 col-sm-12 text-center">
-      <img src="assets/img/ipad.png" class="img-section3">
-      <p class="font-section mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-     </p>
-    </div>
-
-    <div class="col-md-4 col-sm-12 text-center">
-      <img src="assets/img/coffee.png" class="img-section3">
-      <p class="font-section mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-     </p>
-    </div>
-
-    <div class="col-md-4 col-sm-12 text-center">
-      <img src="assets/img/pot.png" class="img-section3">
-      <p class="font-section mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-     </p>
-    </div>
-
-
+    <div class="row">
+  <div class="col">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
   </div>
+  <div class="col">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
   </div>
-  
+</div>
+  </div>
 </section>
+
+<section id="diskusi-third">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+   
+              <div class="card-diskusi card-posisi-response">
+                <a href="forum_detail.html" class="status-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                  utlabore et dolore magna aliqua. Ut enim ad minim veniam</a>
+
+              <div class="d-flex justify-content-start mt-10">
+                <div class="d-flex" style="text-align: left;">
+                  <img src="assets/img/foto.png" class="img-status">
+                  <span style="margin-left: 5px;">
+                    <a class="list-title" href="">@nikofigit</a>
+                    <br>
+                    <i class="list-title">Dipost : 9 jam yang lalu</i>
+                  </span><br>
+              </div>
+            </div>
+
+             <div class="d-flex justify-content-between mt-20">
+              <div>
+                  <span class="tags" style="background: blue;">Diskusi</span>
+              </div>
+                <div style="text-align:left;">
+                  <a href="forum_detail.html" class="list-title" style="text-decoration: none;">
+                    <span style="font-size:12px;"><img src="assets/img/comment.png" width="12px;">&nbsp;1</span>
+                  </a>
+                  <span style="font-size:12px;"><img src="assets/img/love.png" width="12px;">&nbsp;1</span>
+                </div>
+            </div>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+          <div class="card-diskusi card-posisi-response">
+            
+          </div>  
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+          <div class="card-diskusi card-posisi-response">
+            
+          </div>  
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 <footer id="footer">
   <div class="container footer">

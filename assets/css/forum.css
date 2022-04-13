@@ -1,0 +1,176 @@
+
+.card-side-left{
+	box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-webkit-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-moz-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+	background-color: white;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-main{
+	box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-webkit-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-moz-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+	background-color: white;
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-dashboard{
+	box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-webkit-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-moz-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+	background-color: white;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-nav{
+	box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-webkit-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-moz-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+	background-color: white;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.card-side-right{
+	box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-webkit-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+-moz-box-shadow: 0px 2px 9px -5px rgba(138,99,99,0.75);
+	background-color: white;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.form-diskusi{
+	width:90%;
+}
+
+.list-side{
+	padding-left: 0px;
+}
+
+.list-title{
+	font-family: Quicksand,sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.circle.is-blue {
+    background-color: #7b99b9;
+}
+
+.circle.is-green {
+    background-color: #5ee4c6;
+}
+
+.img-status{
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.status-font{
+	font-weight: 450;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+    text-align: left;
+    text-decoration: none;
+}
+
+.tags {
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px 5px;
+    font-size: .8rem;
+    color: #fff;
+}
+
+.icons {
+    margin-bottom: -1px;
+}
+
+.like-button{
+	width: 18px;
+	margin-top: 25px;
+}
+
+.sub-komentar{
+	width: 50%;
+}
+
+.navigasi{
+	display: none;
+}
+
+.card-show{
+	display: none;
+}
+
+@media (max-width: 748px){
+	#first-forum{
+		margin-top: 100px;
+	}
+	.card-main{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.card-side-right{
+		margin-top: 10px;
+	}
+	.sub-komentar{
+		width: 100%;
+	}
+
+	.card-side-left{
+		display: none;
+	}
+
+	.navigasi{
+		display: inline-block;
+		width: 100%;
+	}	
+
+	.card-nav a{
+		margin-left: 5px;
+	}
+
+	.card-show{
+		display: block;
+	}
+}
